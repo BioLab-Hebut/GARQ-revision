@@ -1,0 +1,1714 @@
+{
+  "scope": "Code and configurations for selected existing revision workflows. No experiments were performed during release preparation. No assertion that every manuscript experiment is included.",
+  "source_labels": "Source labels identify archived deliveries; source hashes correspond to the original local audit. Absolute local source paths are retained only in the private audit.",
+  "files": [
+    {
+      "file": "README.md",
+      "origin": "Generated release path/layout helper or documentation; no scientific experiment performed.",
+      "published_sha256": "0b35ac48d1a68a23a9e5e65412f243db22d4eb1e6ded8ac9b08134616ccb0fa1",
+      "changes": [
+        "New release helper/documentation."
+      ]
+    },
+    {
+      "file": "matched_association/README.md",
+      "origin": "Generated release path/layout helper or documentation; no scientific experiment performed.",
+      "published_sha256": "858595dde05b674924f58c905d9197763bad3f6ed680baac136249a8275458e6",
+      "changes": [
+        "New release helper/documentation."
+      ]
+    },
+    {
+      "file": "matched_association/code/cached_region_match.R",
+      "source_label": "matched_final_bins60/code/cached_region_match.R",
+      "source_sha256": "b3124b5aa34ae074d8cce96b3aec686fe037c35190865263f191cf3f7ed1fbfa",
+      "published_sha256": "b3124b5aa34ae074d8cce96b3aec686fe037c35190865263f191cf3f7ed1fbfa",
+      "changes": []
+    },
+    {
+      "file": "matched_association/code/compare_TF_GO.R",
+      "source_label": "matched_final_bins60/code/compare_TF_GO.R",
+      "source_sha256": "e9c9b1acf3f3e770be1560f132d4aa2ea02de1f5d4a18ebd95fcf8c08c5c3643",
+      "published_sha256": "e9c9b1acf3f3e770be1560f132d4aa2ea02de1f5d4a18ebd95fcf8c08c5c3643",
+      "changes": []
+    },
+    {
+      "file": "matched_association/code/evaluate_supplied_workflows.py",
+      "source_label": "matched_archived_execution/code/evaluate_supplied_workflows.py",
+      "source_sha256": "892716fb1213e6a8168ceda23dd76537d05b954ca69ffe753e9a23670773ec6f",
+      "published_sha256": "892716fb1213e6a8168ceda23dd76537d05b954ca69ffe753e9a23670773ec6f",
+      "changes": []
+    },
+    {
+      "file": "matched_association/code/export_global_peak_gene.py",
+      "source_label": "matched_final_bins60/code/export_global_peak_gene.py",
+      "source_sha256": "4658e6838e249b3017bd7ccf4e43da3f14e532677a5a62a4d0909dd18902a6f1",
+      "published_sha256": "bb2dc2bb607383a588312d5b34fe509da58f04fb5c24d333feca705d6f571f95",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "matched_association/code/export_results.py",
+      "source_label": "matched_archived_execution/code/export_results.py",
+      "source_sha256": "f6c25e2824e77f2abad72be96713cbe8aeaee9219e3159b79915205e274f86f5",
+      "published_sha256": "8cb00d0b717e3b33faaf35e9a22b7bfda9a153922f358d55e409b95d16cbdfb6",
+      "changes": [
+        "Selected archived execution-hash-matching source instead of later delivered adaptation.",
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "matched_association/code/fast_region_match.R",
+      "source_label": "matched_final_bins60/code/fast_region_match.R",
+      "source_sha256": "7dab2c8144f1272b1477746e8f4756ea27f578ac68a3eba125fc5fbbcd33846a",
+      "published_sha256": "7dab2c8144f1272b1477746e8f4756ea27f578ac68a3eba125fc5fbbcd33846a",
+      "changes": []
+    },
+    {
+      "file": "matched_association/code/fast_weighted_sampling.cpp",
+      "source_label": "matched_final_bins60/code/fast_weighted_sampling.cpp",
+      "source_sha256": "64e8c2757faebafcc336806e6240e5c18849fcce712cbfbd5f7fdf051132901e",
+      "published_sha256": "64e8c2757faebafcc336806e6240e5c18849fcce712cbfbd5f7fdf051132901e",
+      "changes": []
+    },
+    {
+      "file": "matched_association/code/final_server_validation.py",
+      "source_label": "matched_final_bins60/code/final_server_validation.py",
+      "source_sha256": "246d5cf251396a390d4eccf4d1a8ba9a1addce8efb57c7c4b0de6deb59937408",
+      "published_sha256": "246d5cf251396a390d4eccf4d1a8ba9a1addce8efb57c7c4b0de6deb59937408",
+      "changes": []
+    },
+    {
+      "file": "matched_association/code/global_peak_gene.R",
+      "source_label": "matched_final_bins60/code/global_peak_gene.R",
+      "source_sha256": "de51da3c3e51bdbab179eb290de5e994352efe77323a352b4ff1bdeb9077ecc7",
+      "published_sha256": "5fd0c93db582edb4c97472716666b9c0a08989b6428ddaf2ffcbca084fd170b2",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "matched_association/code/mofa_controls.py",
+      "source_label": "matched_archived_execution/code/mofa_controls.py",
+      "source_sha256": "f406f6810403145dbe5f07808f11c1cacd829cdb8c465947dc077be9e2445104",
+      "published_sha256": "8c9b8c5c2071ec1d81291dd9fe5f308fa94b0ac17c07ac97003013386d296072",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "matched_association/code/prepare_all_arms.py",
+      "source_label": "matched_archived_execution/code/prepare_all_arms.py",
+      "source_sha256": "63f5fa7381747f3f11912967465ffd44415b2581ab78b9c1fec19fb138448fb3",
+      "published_sha256": "b767ca09ea625cac33ecce31b95308ce0bd8a544275e9265c99dc3111a0f3e61",
+      "changes": [
+        "Selected archived execution-hash-matching source instead of later delivered adaptation.",
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "matched_association/code/run_bimodal_downstream.py",
+      "source_label": "matched_archived_execution/code/run_bimodal_downstream.py",
+      "source_sha256": "5eafbdf805f236f4d27ed75b0ea4f1f655d8f5f025676d113bbc7bb021e253ae",
+      "published_sha256": "0fc28772d7bb1c764892133de37466f132caf8d2cf52fece15d1857d25271195",
+      "changes": [
+        "Selected archived execution-hash-matching source instead of later delivered adaptation.",
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "matched_association/code/run_global_peak_gene.py",
+      "source_label": "matched_final_bins60/code/run_global_peak_gene.py",
+      "source_sha256": "5cf5e9af1ba045646fded7ca43ec9daeef03df37fed0b9d24d1a13dc3ee7599c",
+      "published_sha256": "d006aa50440c513241b05b9c4b89407535b0184b685353ced97eed257ee4bacc",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "matched_association/code/source/Signac_1.14.0/installed_DistanceToTSS.R",
+      "source_label": "matched_final_bins60/code/source/Signac_1.14.0/installed_DistanceToTSS.R",
+      "source_sha256": "42f10e461d83b4ccfb25eb98afe42da5980ef861680f2cf83a08ef1ce5bb041f",
+      "published_sha256": "42f10e461d83b4ccfb25eb98afe42da5980ef861680f2cf83a08ef1ce5bb041f",
+      "changes": []
+    },
+    {
+      "file": "matched_association/code/source/Signac_1.14.0/installed_LinkPeaks.R",
+      "source_label": "matched_final_bins60/code/source/Signac_1.14.0/installed_LinkPeaks.R",
+      "source_sha256": "84397b25f8f02212ba517adfe0a3164daf70b93c7f0883ccc2e47f94cd8a3056",
+      "published_sha256": "84397b25f8f02212ba517adfe0a3164daf70b93c7f0883ccc2e47f94cd8a3056",
+      "changes": []
+    },
+    {
+      "file": "matched_association/code/source/Signac_1.14.0/installed_MatchRegionStats.R",
+      "source_label": "matched_final_bins60/code/source/Signac_1.14.0/installed_MatchRegionStats.R",
+      "source_sha256": "5150b5fae9db8f36df4dd29876595300044c6ddfb7c02f9d3be00c6d738a8bff",
+      "published_sha256": "5150b5fae9db8f36df4dd29876595300044c6ddfb7c02f9d3be00c6d738a8bff",
+      "changes": []
+    },
+    {
+      "file": "matched_association/code/source/adt.ipynb",
+      "source_label": "matched_archived_execution/code/source/adt.ipynb",
+      "source_sha256": "599bbfd323bbfefd7113995424b489f165f41b18d98f167b01c30b520e8d5085",
+      "published_sha256": "dd26c431d28029c3b88b12ab382b76f5e9320a3fe21b5e907864d4cbad3d8f97",
+      "changes": [
+        "Removed notebook outputs, execution counters and per-cell metadata; retained source cells.",
+        "Replaced server username prefix with neutral path prefix."
+      ]
+    },
+    {
+      "file": "matched_association/code/source/atac.ipynb",
+      "source_label": "matched_archived_execution/code/source/atac.ipynb",
+      "source_sha256": "b6daf5901453ebb13994ed5f48451799927f6a9dfcd02d329c6372116412cac2",
+      "published_sha256": "3450c50fe8a35ccb608b80903a2cac5e1c8404e47fa53c3571023370cc2e7d0c",
+      "changes": [
+        "Removed notebook outputs, execution counters and per-cell metadata; retained source cells.",
+        "Replaced server username prefix with neutral path prefix."
+      ]
+    },
+    {
+      "file": "matched_association/code/source/compare.R",
+      "source_label": "matched_archived_execution/code/source/compare.R",
+      "source_sha256": "a8110ffd98cb5172e07d534b8862512372bd8fa535a6ed30a72fd77bf84555b2",
+      "published_sha256": "ccb8b88cbe1f57145574b334297bff745cdefa9424e3c177ed4ad96e55dcbc3c",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "matched_association/code/source/original_MOFA_GARQ.py",
+      "source_label": "matched_final_bins60/code/source/original_MOFA_GARQ.py",
+      "source_sha256": "70c9bcf21bf20aa7d61bcc0b8865057685ededd389f81d0419e62782191bdb07",
+      "published_sha256": "9249503a7505767a447fc7be333629b6e464c9d49dc75ca2d47a3a2682efb359",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "matched_association/code/source/original_MOFA_SEACells.py",
+      "source_label": "matched_final_bins60/code/source/original_MOFA_SEACells.py",
+      "source_sha256": "d811c083edf36bdd8dfa9ba06ca96803f23084501b1100810536b4da71cb2e10",
+      "published_sha256": "58a0f88047943140122b7fa4c657b316c5be26d42df99fad41bde3ba6c842917",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "matched_association/code/source/original_TF_lasso.R",
+      "source_label": "matched_final_bins60/code/source/original_TF_lasso.R",
+      "source_sha256": "72e94f3e25f93e900c872a802761dd14b9af68e396a1f36625caf537ea1c5799",
+      "published_sha256": "72e94f3e25f93e900c872a802761dd14b9af68e396a1f36625caf537ea1c5799",
+      "changes": []
+    },
+    {
+      "file": "matched_association/prepare_workflow.py",
+      "origin": "Generated release path/layout helper or documentation; no scientific experiment performed.",
+      "published_sha256": "3ae8de44ef2e31abe780cb509d1e8381375ed18f40574e509713e3d64e2531b9",
+      "changes": [
+        "New release helper/documentation."
+      ]
+    },
+    {
+      "file": "matched_association/provenance/R_versions.json",
+      "source_label": "matched/R_versions",
+      "source_sha256": "07de98bc553a2b6387a60c35ee8041eabadc2815620712c65ed746965372d590",
+      "published_sha256": "fcce4ddb525de4acf59109456133aa3dbdf7db83692d96c95dc27752e7c5dd85",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "matched_association/provenance/executed_code_hashes.json",
+      "source_label": "matched/MOFA/executed_code_hashes",
+      "source_sha256": "1d2c775d9d953ba5af7849efb4cd248d7ca7127189b9043d4424b3885549d77b",
+      "published_sha256": "1d2c775d9d953ba5af7849efb4cd248d7ca7127189b9043d4424b3885549d77b",
+      "changes": []
+    },
+    {
+      "file": "matched_association/provenance/fast_LinkPeaks_validation.json",
+      "source_label": "matched/fast_LinkPeaks_validation",
+      "source_sha256": "d0a3adec780b0ffe20be8a1924065fbd77dc0c5d0ab003734675f65ae1485e07",
+      "published_sha256": "d0a3adec780b0ffe20be8a1924065fbd77dc0c5d0ab003734675f65ae1485e07",
+      "changes": []
+    },
+    {
+      "file": "matched_association/provenance/python_versions.json",
+      "source_label": "matched/MOFA/python_versions",
+      "source_sha256": "300c7ab3d3f74434c963d6b47290961e0e3ac89791636c7657938d094bbf9588",
+      "published_sha256": "300c7ab3d3f74434c963d6b47290961e0e3ac89791636c7657938d094bbf9588",
+      "changes": []
+    },
+    {
+      "file": "phase2/README.md",
+      "origin": "Generated release path/layout helper or documentation; no scientific experiment performed.",
+      "published_sha256": "58018ba341f77f85907fa560708162ed99ec4f4d5126917b89cd43140f922fe6",
+      "changes": [
+        "New release helper/documentation."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/__init__.py",
+      "source_label": "phase2_work/revision_exp/__init__.py",
+      "source_sha256": "609f6b039f26f164c4399483cbf278441c64e620aab66a6c97e3c6b67d7e91ba",
+      "published_sha256": "609f6b039f26f164c4399483cbf278441c64e620aab66a6c97e3c6b67d7e91ba",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/audit/__init__.py",
+      "source_label": "phase2_work/revision_exp/audit/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/audit/e0.py",
+      "source_label": "phase2_work/revision_exp/audit/e0.py",
+      "source_sha256": "caf34eba9c402578260cb1646d7ff3c31eb17d9a1235f024c8ef48a6405d263f",
+      "published_sha256": "caf34eba9c402578260cb1646d7ff3c31eb17d9a1235f024c8ef48a6405d263f",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/audit/phase2_dataset_audit.py",
+      "source_label": "phase2_work/revision_exp/audit/phase2_dataset_audit.py",
+      "source_sha256": "78db828ed614b2fe791beaf5cf403e424964b81779aac385440439288c99c326",
+      "published_sha256": "f82ef1319e3577e4abc1770417f064d98020516ab8ca187d2cf8b18c6f3b9982",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D11_batch1024_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D11_batch1024_seed0.yaml",
+      "source_sha256": "89a7ce4fd62a418c8834ea8a15710e4216c0560ba8c36467370fa483d62444fd",
+      "published_sha256": "62b951152c6e36de42db6f74c6958bc95f1b2086f7ec3a658d8d58019a22432c",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D11_batch1024_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D11_batch1024_seed1.yaml",
+      "source_sha256": "da9e345d3f1dcf49e14b651ebb181494b3c7851e4bcaadb7afb4107f35f85ce1",
+      "published_sha256": "a5cb4c1b85aaeca9f153cd7d67bd2a1db24d45d965b4d35aa527b8954f67aeb4",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D11_batch1024_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D11_batch1024_seed2.yaml",
+      "source_sha256": "934d299fe5461f288362804198572a8af369eab6af4cad3acf99577697f4eb84",
+      "published_sha256": "ef29bc0d43968d757e825c31eae68dd9cdd620d267acaea815268be3f7d46314",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D11_batch2048_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D11_batch2048_seed0.yaml",
+      "source_sha256": "c05b1d61e505fd1698c683a2801c27e4fb9170a2e54e1f182e038f7268d8aeca",
+      "published_sha256": "ddf173b6d4cda2130ac32f6589c0fdea1e4a268a4101370c7bf4171ee0472f55",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D11_batch2048_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D11_batch2048_seed1.yaml",
+      "source_sha256": "9a025993b17bdb24eb964dd86d33f7c88e2ac901f821b3f8fa2604fbb00f1735",
+      "published_sha256": "3f7abe6a83cca0a0c9048546316cc834cdea84cc907fab4f61ce1fa96b4194d1",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D11_batch2048_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D11_batch2048_seed2.yaml",
+      "source_sha256": "85cf44a3f6d1a3415cc44024207b87946d3dc2a27c93b426abfb643bfabee4f2",
+      "published_sha256": "2035f51a9f89e1914e95e9a9fab9ec9259fdec33b49d06e86d4dbbe663bb1668",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D11_batch512_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D11_batch512_seed0.yaml",
+      "source_sha256": "7e7cb89ce4fcbb1a338dc6cec632adddb1fa77018821137033b76b8fb906ef32",
+      "published_sha256": "d89b0066233bac17fc8d3cbb7aa191ebafc976249ac996765734f04958ec18ae",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D11_batch512_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D11_batch512_seed1.yaml",
+      "source_sha256": "83a2057801abc03141fbc06233620b93bd8fb2952f3da85e8179b351721d25c8",
+      "published_sha256": "bd851c88496da5552918410a316cde797577f72f8ecb28fac5f6852ed1803601",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D11_batch512_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D11_batch512_seed2.yaml",
+      "source_sha256": "f50c37b5af08d2647a16a9400393a669f5e191251aefd7bf0f52782f208a2a9d",
+      "published_sha256": "d21c0f9fad95026031fed6422b84ccceca9df6b8482695fc95b88a259c9dd2af",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D5_batch1024_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D5_batch1024_seed0.yaml",
+      "source_sha256": "100c2939ad84db1cbb4be9f158466d33db2aba108d5cfa3f12bdf4f88591d504",
+      "published_sha256": "838c8aa35619138161c262e4cd89c74bd6ba2173a40050b22b59d1dee4ee83f9",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D5_batch1024_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D5_batch1024_seed1.yaml",
+      "source_sha256": "cc7ec31bf8a611905663e9e7101b7a01fad80a4d566ea7abc208ae13b88ed30f",
+      "published_sha256": "eb16e17e2ab5f96b5a90e1d132aeec9bfe6c9ccfaefd9131da0b4fef4bc632db",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D5_batch1024_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D5_batch1024_seed2.yaml",
+      "source_sha256": "0f8875af2a3b3b8912268988e879fb287d5d46ff69238859dbd1bf1ee2727f96",
+      "published_sha256": "96a060c035b6f47a3ffd4f9ff41ebbe8e996c6d43da0d8c1406baac213a3da8f",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D5_batch2048_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D5_batch2048_seed0.yaml",
+      "source_sha256": "c349e66d67e0a6c20243ccf68464533251c9acd3c687b655db4541ca17b662b0",
+      "published_sha256": "97e9bdffc09653e9aa0ada62cae8b10beb48f5069bf98ef7d3324fdf60123c00",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D5_batch2048_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D5_batch2048_seed1.yaml",
+      "source_sha256": "21b52df094cab94eeb6c344c8fa696df80ee58424b9eeba63ba1011c0ff9d7b3",
+      "published_sha256": "45f48397f13c3097d47f9dbf9e578c8b578432570a45012fa5bff6f10b8328c8",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D5_batch2048_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D5_batch2048_seed2.yaml",
+      "source_sha256": "f4c4a222de3cd1b60a7e837e966399f04bc35c9a6b8ff618abc102df174db9ea",
+      "published_sha256": "e858e0bd7a34bea821cef9961bec48a78045437cb56fada90fe6afc3a979f148",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D5_batch512_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D5_batch512_seed0.yaml",
+      "source_sha256": "15ef164772a07c606dc10aba8cd2946913e64e6a5c5ad5b2ec8a5eb55ae42f5e",
+      "published_sha256": "7ee1a03fcc295ea9db11a83ab526290dc2ce0ecbde758f18c25f80045942ea5b",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D5_batch512_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D5_batch512_seed1.yaml",
+      "source_sha256": "a4e9d19ce9295ab15d60c09fcb5ec5a2e4b537f31da0bd74e508facf1f55131a",
+      "published_sha256": "cc74d05a02ae7d7679087f746102194ab9732d4d9031503b86fa50871fb4832b",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/batch_size_full/p2_D5_batch512_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/batch_size_full/p2_D5_batch512_seed2.yaml",
+      "source_sha256": "f68b65320627989f57fc1cc0f03db521564d7fada6931f888dac44a1a2a4a2f1",
+      "published_sha256": "a8bb4f90cbb5bb07a2ecd56ab844371574ea47dcfe3d97ded366d31f15c8f8a0",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/inference_stability_full/p2_D11_inference_stability_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/inference_stability_full/p2_D11_inference_stability_seed0.yaml",
+      "source_sha256": "acec3d950efb47117596bd5158218f10d48ab39521e31a3c73c90babf02cb06b",
+      "published_sha256": "07226d51ac52ef5a6bc22b21900219a2ecdf731d0c67d4544509bf1041331996",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/inference_stability_full/p2_D5_inference_stability_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/inference_stability_full/p2_D5_inference_stability_seed0.yaml",
+      "source_sha256": "8a61d20096d4e46c7e22eb9d3e2bec51ae7b70ed19e977615a7228fdfe9bb47c",
+      "published_sha256": "7c47de888dd5a897ba54217ecd7b3cbeebc7d4a3d4efede90609bf14f9a7910d",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/methods_phase2/p2_D13_scaling_full_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/methods_phase2/p2_D13_scaling_full_seed0.yaml",
+      "source_sha256": "e3e05160532248ca9d05caad837897b77cf9420cd08203d0ce897c763095e493",
+      "published_sha256": "1f143016946b46e3f9d31eeb026443f840e94c18fced3256de063298d632e19d",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/methods_phase2/p2_D13_scaling_full_seed0_retry1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/methods_phase2/p2_D13_scaling_full_seed0_retry1.yaml",
+      "source_sha256": "1225d8fb49855d24ee92bd41b6e5c30ab801ac886cd080f5e839ad5ce2a9aae4",
+      "published_sha256": "55163953a87f44160e720dcfd302580078684b787b07d75475afd651fc71e023",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/methods_phase2/p2_D13_scaling_n100000_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/methods_phase2/p2_D13_scaling_n100000_seed0.yaml",
+      "source_sha256": "74bbf7a59428c167b506dcf571b8cffd0d90446ecc6abb858f227ad90a315a88",
+      "published_sha256": "866b78ad52e3c71dfabc19c3f8b9209846b4a3f66ea702d1ad8056a04d3fc71a",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/methods_phase2/p2_D13_scaling_n10000_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/methods_phase2/p2_D13_scaling_n10000_seed0.yaml",
+      "source_sha256": "5702ec00c0eebe25111529fe2ff12d6be618e5a1836e8ef914fa66da579439ef",
+      "published_sha256": "cc65f0a19cd8c3189215f6a7346fa37e239428d2f27688c727adfe468671ee2f",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/methods_phase2/p2_D13_scaling_n25000_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/methods_phase2/p2_D13_scaling_n25000_seed0.yaml",
+      "source_sha256": "5ad8f6bd13c9f5dfa5692253e2bce29e58193d5c8a23ec37017df52ae8b40fe4",
+      "published_sha256": "e978e0a9a7aab81cfbc2b35ed33587733c78878d42fdd3182e2e228a2663ffb2",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/methods_phase2/p2_D13_scaling_n50000_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/methods_phase2/p2_D13_scaling_n50000_seed0.yaml",
+      "source_sha256": "1f9b3d65dd72b67dfaa945c32bcd38a1741a50fe14ea6b73b661854a28d158bc",
+      "published_sha256": "13c9b545a30191e3b5967c74baac6d50609fff22e148b99cf8a13c3e3868a8c0",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/methods_phase2/p2_D16_full_profile_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/methods_phase2/p2_D16_full_profile_seed0.yaml",
+      "source_sha256": "3ce499b998bfa6c2995f1b5aee77ee346933a1a317dd3884def59b53c629e555",
+      "published_sha256": "b6e2e126e1f5b1ccec220cdd685c8b7564cfcb96a6c3fda9dbfedf42d5274fc8",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/methods_phase2/p2_D16_full_profile_seed0_retry1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/methods_phase2/p2_D16_full_profile_seed0_retry1.yaml",
+      "source_sha256": "cd96a2720a653daf123507156a3191d2a0481118395bae76618b2e11383493ff",
+      "published_sha256": "600fb76ab0f1f88af0005cbe62bc62813f966c8e4c61b6bc2ca698fb99d0f8dc",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/methods_phase2/p2_D16_full_profile_seed0_retry2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/methods_phase2/p2_D16_full_profile_seed0_retry2.yaml",
+      "source_sha256": "c02cf5a55bdf18f49950e78e3d81820146a1dd01d6e377d9b157a4a06ff41555",
+      "published_sha256": "9f723dd03f9255c5244671bce3aa63a3dc28ae01057c044c386a9a76ceecd7a3",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_ADT_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_ADT_seed0.yaml",
+      "source_sha256": "a923a0dfcf300aa0cab6baa7803819041b631821665c10379cdb37c727aa9e51",
+      "published_sha256": "87fafe59349979976f14e9e36191ade9aa8fc2d82b08c4475a4b12fef41e16aa",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_ADT_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_ADT_seed1.yaml",
+      "source_sha256": "74335c7bf43c8aa284a4b30840f628f5d194cd8711dff5e3062de070e63e8e67",
+      "published_sha256": "0716ec17e34318109cc002eeaaead0a6024f10a70e238a836a2d954f376c0f8c",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_ADT_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_ADT_seed2.yaml",
+      "source_sha256": "a98878043ac9c47caf176f5e5f232da8732c1261c786bb34644204c9859283cd",
+      "published_sha256": "7490c65e1c08cd04990e9ee934a23507e58742ff4b488ed2a49f53846d4733da",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_ATAC_ADT_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_ATAC_ADT_seed0.yaml",
+      "source_sha256": "e612b0de3c2c1470555fbdf94d6021cc60a9b5f4aeda9c4fdb88f4ca6e3f4acf",
+      "published_sha256": "b57657a6b49952032adac55f5903d6e7f6f21c2077acbf050c8be18c19932d9e",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_ATAC_ADT_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_ATAC_ADT_seed1.yaml",
+      "source_sha256": "e999b014e7761f4739d6522c8f57bf079719e412361525fba3834ffb0b2d6c76",
+      "published_sha256": "6925d8d3a398d0916d039505e404444a0c48e714cc04be86cd6138f75792fb8e",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_ATAC_ADT_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_ATAC_ADT_seed2.yaml",
+      "source_sha256": "422c79cf5ca73df738bf9deeb2b6a5f90228698ad57c3188999e9a3bdf811714",
+      "published_sha256": "34a2efda60e9b1e938585283f246ecb6652d929a24b4209ea8b8b44bcbf5ec43",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_ATAC_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_ATAC_seed0.yaml",
+      "source_sha256": "d79ce91cc89eb1d4b3e4a4cf65df199b9215c86e5441e64e880609b2ed289b12",
+      "published_sha256": "d631c1f9981357f6b310fdd27f2616d39a9c72aa15b6c10e04da00a6cff9b2f9",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_ATAC_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_ATAC_seed1.yaml",
+      "source_sha256": "909f85abb13093066eebc99b7bc29658ae77a90c86cc634c33abdfbd13ac3724",
+      "published_sha256": "848ac3a72a362ac841a9cb0aff16c1d558a52f7ae6403fa6bdf581c18da52b16",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_ATAC_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_ATAC_seed2.yaml",
+      "source_sha256": "4d6e08a0643812fc39d60962113968f84d4d2c0951236618b4ea80e9a731700d",
+      "published_sha256": "1a737877e2ede4234621b5477cdc6ea061921aca31700951f644b46bb4b9a5a7",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_RNA_ADT_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_RNA_ADT_seed0.yaml",
+      "source_sha256": "1d633158bcf32542ef247d1f1d9b37d33f5016fa2d5c2c5069c7bcde4d16cde2",
+      "published_sha256": "532f57ea2618c844d4e45e1c1f7c33bb820b8eae3925d9b974304cb95295620c",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_RNA_ADT_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_RNA_ADT_seed1.yaml",
+      "source_sha256": "f609ef17c34d5dbd96d26de401225e7d3c6a7a4c79c92a221a329036f8147e9c",
+      "published_sha256": "638c2291100e21c00d82262fd8c245052c408dd3b943243ba8cb566d04094d4a",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_RNA_ADT_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_RNA_ADT_seed2.yaml",
+      "source_sha256": "75fc414910de799b57a3fb8896071da4d27baf43798d5999f4fb8543011c8f77",
+      "published_sha256": "4ab449b5dc3e18b8fcd447a2c357db65be3f4f441b3b2ec45f8da8b93c2f6e19",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_RNA_ATAC_ADT_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_RNA_ATAC_ADT_seed0.yaml",
+      "source_sha256": "5d56557737e483b93d9aec7b65383b81c3cd22034efeb7b07c533d5b055b3f90",
+      "published_sha256": "d313384dad7c228c68d26652dedfbee81cada97d54ee8ba73d686489d5fe621f",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_RNA_ATAC_ADT_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_RNA_ATAC_ADT_seed1.yaml",
+      "source_sha256": "5bec6617fae6668f375dc5b2b1bd567f5f12ab6516d897af3f9faa0bb91c4107",
+      "published_sha256": "c18f27d00e9e53e41e21730c3f01b76b611d491c56c8ad72d0163cb629049bf4",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_RNA_ATAC_ADT_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_RNA_ATAC_ADT_seed2.yaml",
+      "source_sha256": "29fddda79336d726888f666b735db21899e495cc081566ac29a971a0359510aa",
+      "published_sha256": "984d3567c82e6c48a73c7a539a85afacc0bd6afa3db6dda61c5431cafa750374",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_RNA_ATAC_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_RNA_ATAC_seed0.yaml",
+      "source_sha256": "d0f67b3c4510bbcc661622ff70e777fdb28e81da5a891ebf45b21a5d6bba353f",
+      "published_sha256": "7fddeb02337c2acd08baca95dfa688aad15f885e6b900e53c6a17abadab05654",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_RNA_ATAC_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_RNA_ATAC_seed1.yaml",
+      "source_sha256": "571199d1282e41d83f24ed30c7f9ec59d511985ee1d8329e66a679377b7da62e",
+      "published_sha256": "befa09761b9616b5075b87d568fdd26e5706220325e6f982ccaf0ffbe8421bb8",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_RNA_ATAC_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_RNA_ATAC_seed2.yaml",
+      "source_sha256": "2969909ce432234f23d7859d160465f3bd5fe3702139a5d36ebc0b7461a946f5",
+      "published_sha256": "cbd1d0e13c8e65524477e2b98336fc3b2962420f6c2140886f428dc4c9161c85",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_RNA_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_RNA_seed0.yaml",
+      "source_sha256": "c3c4744f90b0e4dd73e3294b39833f38e744c2a3bce55bb6ab8fc5ad752f92cd",
+      "published_sha256": "43a69da77cc6ea1444ec5ed5aa050ad5f64314105a29be337cfb0ba56a3b93c6",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_RNA_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_RNA_seed1.yaml",
+      "source_sha256": "6a19e98a14e26696c3599c7b9fdf529519fce541d38428d149831b9d95937139",
+      "published_sha256": "134a3e215e1df69032e9965aaab57645f30df09d92d69264064f16c762a817aa",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/modality_full/p2_D18_RNA_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/modality_full/p2_D18_RNA_seed2.yaml",
+      "source_sha256": "ca6ac5b461e56e18e316144f4c0f2236cf2d61b06a2fd48e808458dc5d080be8",
+      "published_sha256": "d12a681c8ee0153c7b2d7581c83f5a32c2a5fce20ea21a4e0d26bf070ee6027b",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ADT_cell_permutation_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ADT_cell_permutation_seed0.yaml",
+      "source_sha256": "24fa41ae3ae90780d44047f3fb8db3c31b37ec7f6791693af938df2397ef4c4d",
+      "published_sha256": "6520cd09f42a93d772a580823a8e30124d56825740d5e2decb828a823b17f815",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ADT_cell_permutation_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ADT_cell_permutation_seed1.yaml",
+      "source_sha256": "7d3f217bac87e5fa5c8435a4a991dc4125808533244b6052275025dd63a7495f",
+      "published_sha256": "ca15873c53fe4d32f57a8c3a568d9f78b7aaecc35be2b58437ecf5cc85d697b9",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ADT_cell_permutation_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ADT_cell_permutation_seed2.yaml",
+      "source_sha256": "b1e5c3a7d2702358f54e9c68ea30c1f047d1e001354306ec495845b2540defe1",
+      "published_sha256": "6934743df1542464796f607a98d98800cf74adbc1f152a7253ae4d23d054d513",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.25_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.25_seed0.yaml",
+      "source_sha256": "e1d6a53a1858557bbe8e00db268f096e84b50fa167efcadfda6b478b5c259594",
+      "published_sha256": "f961f0804f6bf88c74257978b925ce55435fd669416ec3ede66156c9a1646266",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.25_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.25_seed1.yaml",
+      "source_sha256": "2a35cdac7c62b380531360e96b7538053d0bf94f2b87c19a6cb2c324ebccce87",
+      "published_sha256": "47e4552a282538eea7557d69c3235a15fe5cd4917785e3d6d35d0d398cfdff07",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.25_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.25_seed2.yaml",
+      "source_sha256": "1f7ec56135f40ccbf15941b7c182188e186b45e8c6d081073d8fffb9e93bf0dd",
+      "published_sha256": "46353f181276cc1ef66e8d911728ab3d318acd4d8852e7d20beddf02f1074099",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.5_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.5_seed0.yaml",
+      "source_sha256": "51ae15fcf1e9b36c57b366a87b5b889077d8073d5f36ba2091c2b5dbc9b6a069",
+      "published_sha256": "dfde8937eca2782c303289d0bbfd907c0de2f82f3463d1185c05c466e3bffa63",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.5_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.5_seed1.yaml",
+      "source_sha256": "e5c8d0a2233693a4381092b4c3695a01b0252e4106032df55d3a35000b4e9a67",
+      "published_sha256": "50232c456293bb130db5d89b630c2709edfbb50573af8ca32dc63d9542614bdf",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.5_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.5_seed2.yaml",
+      "source_sha256": "3f75064b83286c7ebacba508a97334f624b36f4f40729a0462cb09581ade930e",
+      "published_sha256": "6926cbc0203a3ab2a8a75ce17eeb190edb9972ac8c896927dae7b4246591a06a",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.75_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.75_seed0.yaml",
+      "source_sha256": "0f907586804c0b1d7d6442c670e8925c8bced1f8bcf38353db4ec7856ca80e45",
+      "published_sha256": "23c5b159156d55aa5c98315a66e25c06d7139fe1297214675602de5518c01bd2",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.75_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.75_seed1.yaml",
+      "source_sha256": "aa0778a1051d707479d5000226578b86f85b4eedf3a1dadc8ebfe84177081169",
+      "published_sha256": "fc0766cef755ca7b27a8f0757baee33e477d9c830fc955c11ca5998ca54dabf1",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.75_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ADT_thin_0.75_seed2.yaml",
+      "source_sha256": "8538fdb5ff5ec2623d9c5a87c1714104aed9f301432a9674b775278cb4e9cf30",
+      "published_sha256": "56cc81efe909f9ff4de30a46d6a3cd0574f4f9df3102042d6ae4c9af02bbb562",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ATAC_cell_permutation_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ATAC_cell_permutation_seed0.yaml",
+      "source_sha256": "3654c715a72aba09299e40bbd8aa75e20e18070ffe429e66cd53a8925f349d59",
+      "published_sha256": "3524f7238270dd29df83569cdb37ef0568d56650e5fc5f22a64bff34727d97e8",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ATAC_cell_permutation_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ATAC_cell_permutation_seed1.yaml",
+      "source_sha256": "48f773f11e13e2d27c69b088231b0c4df0806ba821f5ba294db7a28283c30c5b",
+      "published_sha256": "fad1d66f5d993cd5ea15c348eab874f5ebeff1afd0e9b06ba6f538e43eb83b55",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ATAC_cell_permutation_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ATAC_cell_permutation_seed2.yaml",
+      "source_sha256": "74d9c4dd667e85ba85e81de62faecbf800b989fc6c0a4c6d113ee15248c6a190",
+      "published_sha256": "cfb153b5888ba7ae101e232114522c1908c16e42b93b24d3ab588c19241e7cc1",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.25_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.25_seed0.yaml",
+      "source_sha256": "c6c427b2d03050d1c4b5591dfdac33e476faf4e979f17d1ceefbd20ab31e5ba5",
+      "published_sha256": "f55f5c8d27a4438f489578e8b2d865368e456147af609551601027a2e26783d6",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.25_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.25_seed1.yaml",
+      "source_sha256": "f4c77939a2419734214380d05f22c08743ab463b20a84e562a0aebc341e7034f",
+      "published_sha256": "915089329f687a8b4ab5b0b98d4bf69e4fa1102a68bed6b550f171936de594e3",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.25_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.25_seed2.yaml",
+      "source_sha256": "bba16f88dd9343a3c6389c9cd8d65dc2f7dc774b79e2765c2f29e9987941f576",
+      "published_sha256": "247649494de97dbc6c18bee686e4291033797cc06ee5fa52937aea3c323d9c5e",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.5_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.5_seed0.yaml",
+      "source_sha256": "ce5668df916b8b87210bfb882c71e804cc127fbd88da63c6712f8e355174ed6e",
+      "published_sha256": "4b6033232c7907b11b61c7d02d8bfd98d2b21f7b326b42d92d9b868fe06fe3a3",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.5_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.5_seed1.yaml",
+      "source_sha256": "b8c90c501d27bc48a6dc95ef480ed3ae4f76ab262ad47da35cd0a4ffb5659aeb",
+      "published_sha256": "aca0e64c7138d6ca5ab936f19e3716d663e9d2c526d969d5944252b050e72753",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.5_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.5_seed2.yaml",
+      "source_sha256": "d2854ea9f1f4d994633d9836c67b2fd21268f65c5be4f30b6190297ac99a8f42",
+      "published_sha256": "f89e024e158016b603fecd7ab8725d0f11436bd08373f47e5a7805e12e0f5690",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.75_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.75_seed0.yaml",
+      "source_sha256": "3fd49e30ad873824db7708af6ee4786dbe3636570b50eeca3176efe50a05959a",
+      "published_sha256": "d4e5a26987d9d2edba5cbfab97225d8907a0921c93aa1e5cd3c994271bc68b23",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.75_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.75_seed1.yaml",
+      "source_sha256": "aac99a61a39596b864ffb7c00bb362ccda498daa6887d44795f0cfc7c6d57176",
+      "published_sha256": "6799a0d8d530a522dd0aa9d817f452371f82c99fb122a6c0d5c58a13daff5d97",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.75_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_ATAC_thin_0.75_seed2.yaml",
+      "source_sha256": "2eaaf7601253c4d52378638fdddb90908284263b41a097d117ddd9066155272a",
+      "published_sha256": "bcd59ff83c849dbd0463a13f5977090cf1bbc553d3c9b1408eb447d500a98592",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_RNA_cell_permutation_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_RNA_cell_permutation_seed0.yaml",
+      "source_sha256": "88a4f2b2fafef68603e76794623675049898c721e1d137c70ecb0e88807b27c1",
+      "published_sha256": "cf162f456aed01e63bec1994d5f80fb1e64f93ee78598c655f53b79e2af3b70f",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_RNA_cell_permutation_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_RNA_cell_permutation_seed1.yaml",
+      "source_sha256": "76621cfafd0c72e2f98d8039a368eeb91ad55c99a63ba18299fc2e954695db90",
+      "published_sha256": "c3ab8d987f8f1dd9615374e22a7b33838bcbfa9d613d3a024c0a7b7ebacb12ec",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_RNA_cell_permutation_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_RNA_cell_permutation_seed2.yaml",
+      "source_sha256": "50c922e9ca55d1339456ede1f1d27ff6541d793ebf727f188ec3721495ddfb07",
+      "published_sha256": "30d382e8e9f593dbb6e827ddfbe7864b00d5cd454f7049289a0ae43dfde561c6",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.25_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.25_seed0.yaml",
+      "source_sha256": "76113e666833cdecbce2610c8d17b4a97fabcd26acd435d7bd79b5a91db71ca4",
+      "published_sha256": "42815ce40e605f6556f5079a168a991ea7c1312199ca501106d687fbab55b2ea",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.25_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.25_seed1.yaml",
+      "source_sha256": "9b2d0eb0f984e1bca53418175457309de5c59f70e0dd311f2feeabaaf85946dc",
+      "published_sha256": "9a9bcad71e8611664fdefd38cb2fc66608264a5791634d6c5818fb8c34a5048f",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.25_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.25_seed2.yaml",
+      "source_sha256": "43f33ed2ce417860daac02f5160313743fd72193664c22b069a1b2ba7523df91",
+      "published_sha256": "bc70d1d17b2f30bc619c3952f32f8004a3814920e9d71b00c954cf7bc6c1fc8d",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.5_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.5_seed0.yaml",
+      "source_sha256": "d5165d3ee4486a77cc48b6fb665befc797212df6215283fdd0c5b83b16548011",
+      "published_sha256": "25b1f638f263ce97a438a60f1ec219dc31a3d1520242b3e6c2428ecf943c45be",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.5_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.5_seed1.yaml",
+      "source_sha256": "9eb84ab56b42812faf5b2ed4859616d08be191a4e13e7dc845eb094859b730a0",
+      "published_sha256": "259d29186f338aef2ac2a4c27270c7e55496dc657490feed94127f4fe722c640",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.5_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.5_seed2.yaml",
+      "source_sha256": "9857317b0ce561f93376a4752455fac772a216b04c23a704304642c2ee40587e",
+      "published_sha256": "b119b7c70bb2f2619c9590a70b28190371515715a0a66648159cdd6dd1ae7bd1",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.75_seed0.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.75_seed0.yaml",
+      "source_sha256": "fea479432aa3668ddd6448649a78c8b5b2b8360475ac11270ec2bd432086f0cc",
+      "published_sha256": "c28d9db60af4920523ef7e8d0102a5708fcd8c5610bc39957e4d216c247df940",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.75_seed1.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.75_seed1.yaml",
+      "source_sha256": "a19c87127317fb00ab7e43422f029bdb39894f8de018b90062ea28a74506b5b2",
+      "published_sha256": "d21483aecacbd40f5f562d9e770146bcdb936f3be54d07393ee03bed62511cf4",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.75_seed2.yaml",
+      "source_label": "phase2_work/revision_exp/configs/noise_full/p2_D18_noise_RNA_thin_0.75_seed2.yaml",
+      "source_sha256": "ecce2598c5a29315958635ac9d3aaf91a34347237a23af631a9d7cc169e81ce5",
+      "published_sha256": "6e6ac4868ea496dfd29e23e40ce4a39f128f660a8d08c8c80078ebffb8857c45",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/methods/common_assignment_evaluator.py",
+      "source_label": "phase2_work/revision_exp/methods/common_assignment_evaluator.py",
+      "source_sha256": "0ccadd45fbd3432d52ea1fdf98fb6d99e8dff529a7f087f1eb57e429a963a45d",
+      "published_sha256": "0ccadd45fbd3432d52ea1fdf98fb6d99e8dff529a7f087f1eb57e429a963a45d",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/methods/epicarousel_adapter.py",
+      "source_label": "phase2_work/revision_exp/methods/epicarousel_adapter.py",
+      "source_sha256": "4020e4a0abbdb29aa3a1de51d8f4ad868264acdf1e4d7eab9fb1383137b835cc",
+      "published_sha256": "4020e4a0abbdb29aa3a1de51d8f4ad868264acdf1e4d7eab9fb1383137b835cc",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/methods/metaq_adapter.py",
+      "source_label": "phase2_work/revision_exp/methods/metaq_adapter.py",
+      "source_sha256": "f079ccfaa6b0cff05a81fc34c25fba4e6e8f51b148750f01569fc80b511134f9",
+      "published_sha256": "f079ccfaa6b0cff05a81fc34c25fba4e6e8f51b148750f01569fc80b511134f9",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/methods/seacells_adapter.py",
+      "source_label": "phase2_work/revision_exp/methods/seacells_adapter.py",
+      "source_sha256": "085929c309ffe8c57a51a0750d921f0dcc2e2d04e977347c3dff597c6a225196",
+      "published_sha256": "085929c309ffe8c57a51a0750d921f0dcc2e2d04e977347c3dff597c6a225196",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/metrics/__init__.py",
+      "source_label": "phase2_work/revision_exp/metrics/__init__.py",
+      "source_sha256": "ccbfbe2aac9cafb4d667789b8d1da506b76a9569360154e6097f0a0a105a9bed",
+      "published_sha256": "ccbfbe2aac9cafb4d667789b8d1da506b76a9569360154e6097f0a0a105a9bed",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/metrics/assignment.py",
+      "source_label": "phase2_work/revision_exp/metrics/assignment.py",
+      "source_sha256": "0ee4e0aba343e2853bfa0395484f43fbfba6a2b890be1b45a06a2f7dd0e14f41",
+      "published_sha256": "0ee4e0aba343e2853bfa0395484f43fbfba6a2b890be1b45a06a2f7dd0e14f41",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/metrics/metacell.py",
+      "source_label": "phase2_work/revision_exp/metrics/metacell.py",
+      "source_sha256": "321bde54e7cfa52526cd0f86881de8dbf120f18afa3a3c6b101b8d5d4696196f",
+      "published_sha256": "321bde54e7cfa52526cd0f86881de8dbf120f18afa3a3c6b101b8d5d4696196f",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/run.py",
+      "source_label": "phase2_work/revision_exp/run.py",
+      "source_sha256": "8ae0af981a50ea7b832e5f132b90da41a339cd8f8d2271caa446fc6490b78ce9",
+      "published_sha256": "8ae0af981a50ea7b832e5f132b90da41a339cd8f8d2271caa446fc6490b78ce9",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/tests/test_anchor_diagnostics.py",
+      "source_label": "phase2_work/revision_exp/tests/test_anchor_diagnostics.py",
+      "source_sha256": "0a9c22ef0226e3937cc4e13d673307ebc93242971039cf9d0d6132c218cfebd3",
+      "published_sha256": "0a9c22ef0226e3937cc4e13d673307ebc93242971039cf9d0d6132c218cfebd3",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/tests/test_anchor_initialization_batches.py",
+      "source_label": "phase2_work/revision_exp/tests/test_anchor_initialization_batches.py",
+      "source_sha256": "920f32a11d4e4c59aa20f7d6691476b7ad3794b8985f5d896863a7df0eaba22b",
+      "published_sha256": "920f32a11d4e4c59aa20f7d6691476b7ad3794b8985f5d896863a7df0eaba22b",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/tests/test_assignment_batch_order.py",
+      "source_label": "phase2_work/revision_exp/tests/test_assignment_batch_order.py",
+      "source_sha256": "afdd12a83b158eb43bcd64683aa9d62f1a8428d7dbe15d2baaac74bfce554e82",
+      "published_sha256": "afdd12a83b158eb43bcd64683aa9d62f1a8428d7dbe15d2baaac74bfce554e82",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/tests/test_assignment_metrics.py",
+      "source_label": "phase2_work/revision_exp/tests/test_assignment_metrics.py",
+      "source_sha256": "038ee914b7bf4a46df3de917e010c5fe2e67a8554c707e6c9944fa454002f401",
+      "published_sha256": "038ee914b7bf4a46df3de917e010c5fe2e67a8554c707e6c9944fa454002f401",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/tests/test_modality_perturbation.py",
+      "source_label": "phase2_work/revision_exp/tests/test_modality_perturbation.py",
+      "source_sha256": "a379f4f84d9c7f94ef28ceaecfc3c4e4426a8d57a203df881497a9be54fa18f2",
+      "published_sha256": "a379f4f84d9c7f94ef28ceaecfc3c4e4426a8d57a203df881497a9be54fa18f2",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/tests/test_modality_weights.py",
+      "source_label": "phase2_work/revision_exp/tests/test_modality_weights.py",
+      "source_sha256": "ce5b03d5fbfc4d64a75ff55d90bb1d6cae3521fd01e08ab98465a44ce936b39e",
+      "published_sha256": "ce5b03d5fbfc4d64a75ff55d90bb1d6cae3521fd01e08ab98465a44ce936b39e",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/tests/test_sparse_dense_equivalence.py",
+      "source_label": "phase2_work/revision_exp/tests/test_sparse_dense_equivalence.py",
+      "source_sha256": "20ba4744ae6af45ce35c4a92a1e7efe0be6a4c031756233f8f96e45d3fdd1445",
+      "published_sha256": "20ba4744ae6af45ce35c4a92a1e7efe0be6a4c031756233f8f96e45d3fdd1445",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/utils/__init__.py",
+      "source_label": "phase2_work/revision_exp/utils/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/utils/provenance.py",
+      "source_label": "phase2_work/revision_exp/utils/provenance.py",
+      "source_sha256": "2405ccc1d728beb9f57e516a9e9da3bb6338f9862bcd91800954c835e3a3eab2",
+      "published_sha256": "2405ccc1d728beb9f57e516a9e9da3bb6338f9862bcd91800954c835e3a3eab2",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/utils/resource_monitor.py",
+      "source_label": "phase2_work/revision_exp/utils/resource_monitor.py",
+      "source_sha256": "1f4af5bee7943ee0c16b134ad34e4bb86a1ab6a3c7c5678385f6b0c929ed82da",
+      "published_sha256": "1f4af5bee7943ee0c16b134ad34e4bb86a1ab6a3c7c5678385f6b0c929ed82da",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/workflows/__init__.py",
+      "source_label": "phase2_work/revision_exp/workflows/__init__.py",
+      "source_sha256": "98311074b255cef4feaec255f29e047124380d0b76571c2c1d135ac394a53378",
+      "published_sha256": "98311074b255cef4feaec255f29e047124380d0b76571c2c1d135ac394a53378",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/workflows/d18_modality_neighborhood_full.py",
+      "source_label": "phase2_work/revision_exp/workflows/d18_modality_neighborhood_full.py",
+      "source_sha256": "d4904fd9bfd739c442c231bf4af7e9ded383531b9fbd5f5b793a2f677c71cd09",
+      "published_sha256": "d4904fd9bfd739c442c231bf4af7e9ded383531b9fbd5f5b793a2f677c71cd09",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/workflows/d18_mofa_benchmark.py",
+      "source_label": "phase2_work/revision_exp/workflows/d18_mofa_benchmark.py",
+      "source_sha256": "995a8597465cb421f4feb1a3e7ba953af526ebff04144d70ca303bcf08277a2e",
+      "published_sha256": "a99173b8aa541b67f8b57637d68f7649636c62734ada1aed6ac03da8f3b36973",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged.",
+        "Replaced standalone data-root constants with GARQ_DATA_ROOT; feature/factor/seed settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/workflows/d18_rna_protein_benchmark.py",
+      "source_label": "phase2_work/revision_exp/workflows/d18_rna_protein_benchmark.py",
+      "source_sha256": "bfe07e93140ebf8e8cb383b9b6c93d1f22d8ec9ee3654edaf04c5d4b93f83548",
+      "published_sha256": "d6b5c83baaf55bc12891d96c1804e83bac675d38e18bfeda2286c616598124fc",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged.",
+        "Replaced standalone data-root constants with GARQ_DATA_ROOT; feature/factor/seed settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/workflows/fixed_representation.py",
+      "source_label": "phase2_work/revision_exp/workflows/fixed_representation.py",
+      "source_sha256": "7a8d67801594f7376dd55354a0bb1acd340240a6ead66927e8e17f14849058d5",
+      "published_sha256": "7a8d67801594f7376dd55354a0bb1acd340240a6ead66927e8e17f14849058d5",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/workflows/generate_anchor_multiseed_configs.py",
+      "source_label": "phase2_work/revision_exp/workflows/generate_anchor_multiseed_configs.py",
+      "source_sha256": "faff85619316116bd5791d8c4b7d345ce640fcb40e26aa9136693731977a712d",
+      "published_sha256": "faff85619316116bd5791d8c4b7d345ce640fcb40e26aa9136693731977a712d",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/workflows/generate_batch_size_configs.py",
+      "source_label": "phase2_work/revision_exp/workflows/generate_batch_size_configs.py",
+      "source_sha256": "ae7b57bf101de10d8026806239174ac51192d24373f5cf25a20ee2c6847d3a4b",
+      "published_sha256": "eb029d40ee2577583130196b782e1de3b0379c60cd9e8ee2d05a4beccc0857c1",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/workflows/generate_d18_modality_full_configs.py",
+      "source_label": "phase2_work/revision_exp/workflows/generate_d18_modality_full_configs.py",
+      "source_sha256": "7bedbad3910bcfa8fe0442e5b9102cd13831bb172202f3ee6e8988ae2a0c8882",
+      "published_sha256": "deb25617bdafe5fe361355b1234d7b6a65df8c493b70edb3eb928ee8e9dfbdca",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/workflows/generate_d18_noise_full_configs.py",
+      "source_label": "phase2_work/revision_exp/workflows/generate_d18_noise_full_configs.py",
+      "source_sha256": "8b763ba47622dfe0878db8aa651482922d2b449ca0246d286ad6aac8bab1a3c7",
+      "published_sha256": "8b763ba47622dfe0878db8aa651482922d2b449ca0246d286ad6aac8bab1a3c7",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/workflows/legacy.py",
+      "source_label": "phase2_work/revision_exp/workflows/legacy.py",
+      "source_sha256": "048b108ebab809526034c532b44d9d1699adc7252b240e0aaea7a8039b321d1f",
+      "published_sha256": "048b108ebab809526034c532b44d9d1699adc7252b240e0aaea7a8039b321d1f",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/workflows/matched_baseline_fixed.py",
+      "source_label": "phase2_work/revision_exp/workflows/matched_baseline_fixed.py",
+      "source_sha256": "88e02e55e9dd4509a5c9b325dfab374d04f5f57152856191502f145157435d01",
+      "published_sha256": "841e17726bd5046eb99c6d680ddecac04ab8a2b3510ed830fe5e368cb58e590e",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "phase2/revision_exp/workflows/metaq_realized_k_calibration.py",
+      "source_label": "phase2_work/revision_exp/workflows/metaq_realized_k_calibration.py",
+      "source_sha256": "459a4611a25d853b398a9eff4dbaeb16709bae34940daaf4982440716275895a",
+      "published_sha256": "459a4611a25d853b398a9eff4dbaeb16709bae34940daaf4982440716275895a",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/workflows/neighborhood_mapping.py",
+      "source_label": "phase2_work/revision_exp/workflows/neighborhood_mapping.py",
+      "source_sha256": "7b51839ad5325edaf3ea6e1026b5f61c46b7823f162e3820df7ba15ec0727901",
+      "published_sha256": "7b51839ad5325edaf3ea6e1026b5f61c46b7823f162e3820df7ba15ec0727901",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/workflows/stability.py",
+      "source_label": "phase2_work/revision_exp/workflows/stability.py",
+      "source_sha256": "fdacc0653be8eedf1bb215c024237352090f1c904d804e853be693d57ccd9b98",
+      "published_sha256": "fdacc0653be8eedf1bb215c024237352090f1c904d804e853be693d57ccd9b98",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/workflows/summarize_anchor.py",
+      "source_label": "phase2_work/revision_exp/workflows/summarize_anchor.py",
+      "source_sha256": "77861de7ba5b7eb8a9c5870c3c682067be9c75fa1a75b52abc1b108596b9db64",
+      "published_sha256": "77861de7ba5b7eb8a9c5870c3c682067be9c75fa1a75b52abc1b108596b9db64",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/workflows/summarize_batch_size_full.py",
+      "source_label": "phase2_work/revision_exp/workflows/summarize_batch_size_full.py",
+      "source_sha256": "b72770fb64ca7fe8ac59b9fbdf9db9bd7357dc050da4bb0624e6a7db2273c96f",
+      "published_sha256": "b72770fb64ca7fe8ac59b9fbdf9db9bd7357dc050da4bb0624e6a7db2273c96f",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/workflows/summarize_d18_noise_full.py",
+      "source_label": "phase2_work/revision_exp/workflows/summarize_d18_noise_full.py",
+      "source_sha256": "78e8b239bd074967206da05d3bb265d4f9bfbddb3e1c7f7e4b8d0e61686034f2",
+      "published_sha256": "78e8b239bd074967206da05d3bb265d4f9bfbddb3e1c7f7e4b8d0e61686034f2",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/workflows/summarize_matched_baselines.py",
+      "source_label": "phase2_work/revision_exp/workflows/summarize_matched_baselines.py",
+      "source_sha256": "fd0ed18eea2049fd0d09a2a1412ab94525347c0ebb616c1c3386e11a3770c97a",
+      "published_sha256": "fd0ed18eea2049fd0d09a2a1412ab94525347c0ebb616c1c3386e11a3770c97a",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/workflows/summarize_noise.py",
+      "source_label": "phase2_work/revision_exp/workflows/summarize_noise.py",
+      "source_sha256": "c6723c85a23b137a24a25ba9c23016f08b13714a152f21e72a7096d699b3b13b",
+      "published_sha256": "c6723c85a23b137a24a25ba9c23016f08b13714a152f21e72a7096d699b3b13b",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/workflows/summarize_stability.py",
+      "source_label": "phase2_work/revision_exp/workflows/summarize_stability.py",
+      "source_sha256": "e826e0b3334b410b0a038c61e38d65e433daf5c2228586748ff0043657ddc95d",
+      "published_sha256": "e826e0b3334b410b0a038c61e38d65e433daf5c2228586748ff0043657ddc95d",
+      "changes": []
+    },
+    {
+      "file": "phase2/revision_exp/workflows/summarize_weights.py",
+      "source_label": "phase2_work/revision_exp/workflows/summarize_weights.py",
+      "source_sha256": "17fd931f66d10c3413cb83fc85bce991ab3319228dd1ada92e05ee70b8e63132",
+      "published_sha256": "17fd931f66d10c3413cb83fc85bce991ab3319228dd1ada92e05ee70b8e63132",
+      "changes": []
+    },
+    {
+      "file": "phase2/run_revision.py",
+      "origin": "Generated release path/layout helper or documentation; no scientific experiment performed.",
+      "published_sha256": "0db5e4cf833bc374b97f50ab93f4ce5b584e9e1213f9f659f787968d5065e8cd",
+      "changes": [
+        "New release helper/documentation."
+      ]
+    },
+    {
+      "file": "phase2/vendor/phase2_backend/GARQ.py",
+      "source_label": "phase2_work/instrumented_backend/GARQ.py",
+      "source_sha256": "b925d9b1746e31d73fde22365f071d444b4a34530213616d1967e04a7523dedc",
+      "published_sha256": "b925d9b1746e31d73fde22365f071d444b4a34530213616d1967e04a7523dedc",
+      "changes": []
+    },
+    {
+      "file": "phase2/vendor/phase2_backend/data_utils.py",
+      "source_label": "phase2_work/instrumented_backend/data_utils.py",
+      "source_sha256": "308b2716ff9bc281475d21d94b98e06c47d5d7146a9b383531a5ce8c3a4b0c42",
+      "published_sha256": "308b2716ff9bc281475d21d94b98e06c47d5d7146a9b383531a5ce8c3a4b0c42",
+      "changes": []
+    },
+    {
+      "file": "phase2/vendor/phase2_backend/engine.py",
+      "source_label": "phase2_work/instrumented_backend/engine.py",
+      "source_sha256": "6754b99af13f3184adfce78b3386c9ad0811a206c16139b08081c0c2889df631",
+      "published_sha256": "6754b99af13f3184adfce78b3386c9ad0811a206c16139b08081c0c2889df631",
+      "changes": []
+    },
+    {
+      "file": "phase2/vendor/phase2_backend/eval_utils.py",
+      "source_label": "phase2_work/instrumented_backend/eval_utils.py",
+      "source_sha256": "b17699724fed5aff07d317a64d75d496f37b935231600221cdbf7539876e33d8",
+      "published_sha256": "b17699724fed5aff07d317a64d75d496f37b935231600221cdbf7539876e33d8",
+      "changes": []
+    },
+    {
+      "file": "phase2/vendor/phase2_backend/model.py",
+      "source_label": "phase2_work/instrumented_backend/model.py",
+      "source_sha256": "c954baf97da2f7ff87fa74603835252af5ca5b3b107eb4f85a7f805a4df8d8de",
+      "published_sha256": "c954baf97da2f7ff87fa74603835252af5ca5b3b107eb4f85a7f805a4df8d8de",
+      "changes": []
+    },
+    {
+      "file": "scalability/README.md",
+      "origin": "Generated release path/layout helper or documentation; no scientific experiment performed.",
+      "published_sha256": "50d0865d340051a4b81b49cf81e33cdf8435465860bfde2406eb8d07803cfac8",
+      "changes": [
+        "New release helper/documentation."
+      ]
+    },
+    {
+      "file": "scalability/README_ZH.md",
+      "origin": "Generated release path/layout helper or documentation; no scientific experiment performed.",
+      "published_sha256": "be015b662235bbb9fa5f6e2b702929a4216de7a373234f698635e4b3625aec60",
+      "changes": [
+        "New release helper/documentation."
+      ]
+    },
+    {
+      "file": "scalability/configs/D11_RNA_ATAC_K321_B1024_seed1.json",
+      "source_label": "final_GiB/reproducibility/configs/D11_RNA_ATAC_K321_B1024_seed1.json",
+      "source_sha256": "6378ba759bd69d8257ac63f41f62727d5eedb8eea03ab260f24d6abf941c9a5d",
+      "published_sha256": "11dc7445db351e6399e16dde98f0bea3f462368f8f56dda5e694200ed3433677",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D11_RNA_ATAC_K321_B1024_seed2.json",
+      "source_label": "final_GiB/reproducibility/configs/D11_RNA_ATAC_K321_B1024_seed2.json",
+      "source_sha256": "2a62c244d5a0bc9ae75f3bafcc23a6b133c59443a438446f12b8ebc7c2ca0711",
+      "published_sha256": "863875834c4a321ec83503c1b667d995949aea2d825a81e28488c73ef4b7a65e",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D11_RNA_ATAC_K321_B1024_seed3.json",
+      "source_label": "final_GiB/reproducibility/configs/D11_RNA_ATAC_K321_B1024_seed3.json",
+      "source_sha256": "ee5fa00e24e21aadd16d4aec63b7e4ba2aafca566058f8ee1a1e0f36fe2e6c5d",
+      "published_sha256": "e291c830a0295dab903e702771af59bfd371f829cbd63190b9aeb8f9963d01bf",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D11_RNA_ATAC_K321_B256_seed1.json",
+      "source_label": "final_GiB/reproducibility/configs/D11_RNA_ATAC_K321_B256_seed1.json",
+      "source_sha256": "3af10950554051d514d852efb81b54457201acbc24ed766d779dd663fd114ec2",
+      "published_sha256": "37a5b299750bad849c1ffe685b64e72f862b92bcacab13f74ce55f8fe9401796",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D11_RNA_ATAC_K321_B256_seed2.json",
+      "source_label": "final_GiB/reproducibility/configs/D11_RNA_ATAC_K321_B256_seed2.json",
+      "source_sha256": "214a15d1ec59ae55d750b42504dc5904a46e36a81526345968ac9d41902a19dd",
+      "published_sha256": "48378b3b2273a2b1c391e574c94766ae6e558cba6bb3bc913dfaccc871aa6b89",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D11_RNA_ATAC_K321_B256_seed3.json",
+      "source_label": "final_GiB/reproducibility/configs/D11_RNA_ATAC_K321_B256_seed3.json",
+      "source_sha256": "e323fe521e9be23ea8ffd136ab9718d022fabc6cb0d33f820cdc5aea833f02f0",
+      "published_sha256": "a349ec7a45622e2098dcbcbffab45b72a70791d517ae18259cacba7c19a3cfed",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D11_RNA_ATAC_K321_B512_seed1.json",
+      "source_label": "final_GiB/reproducibility/configs/D11_RNA_ATAC_K321_B512_seed1.json",
+      "source_sha256": "ff3d43b1c6244c19faaf8dfcc157b321b5a92e43ab3eb8490578ab40a9e0beae",
+      "published_sha256": "e1f7bde6bb02d97048cc9511ce6840df961b60d8fdaa037173e7a6cc3823d270",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D11_RNA_ATAC_K321_B512_seed2.json",
+      "source_label": "final_GiB/reproducibility/configs/D11_RNA_ATAC_K321_B512_seed2.json",
+      "source_sha256": "9098174ae1278206888595e05e8494442c4278455417ef0cde28d2e1a7487275",
+      "published_sha256": "1233bf0833478c7cf155e02b63133ace95ebbf96a6fbf478a23b65f35cbefd3c",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D11_RNA_ATAC_K321_B512_seed3.json",
+      "source_label": "final_GiB/reproducibility/configs/D11_RNA_ATAC_K321_B512_seed3.json",
+      "source_sha256": "3f84bb871b2ccd4a11c4d0019ac3a96d939b95d24fbb98330b4ea23bdf85d0f1",
+      "published_sha256": "e2579948853eab332071176750fd318bf59b12aa892e25629d91e730fd156403",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D5_RNA_ADT_K403_B1024_seed1.json",
+      "source_label": "final_GiB/reproducibility/configs/D5_RNA_ADT_K403_B1024_seed1.json",
+      "source_sha256": "61fe0b5030de4ac814dc68ed2828691378be7c3d185922e52a1d90662e0a44a7",
+      "published_sha256": "d3588aef9c40d0c67a45a98d66f39b22f44282b5332d3ea91375d55f91675199",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D5_RNA_ADT_K403_B1024_seed2.json",
+      "source_label": "final_GiB/reproducibility/configs/D5_RNA_ADT_K403_B1024_seed2.json",
+      "source_sha256": "1fe56199f6b2970bfed0b2124ca41b636a63bd64fe33b8885daae8c38426fea3",
+      "published_sha256": "96f181a2e64dcca0c1e548c54f995c8dbb17ee8b7881f0cdd8614e045dbf3d06",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D5_RNA_ADT_K403_B1024_seed3.json",
+      "source_label": "final_GiB/reproducibility/configs/D5_RNA_ADT_K403_B1024_seed3.json",
+      "source_sha256": "8144135e66ad8ca6217767ca5d897b828bcef158166b929bf56149ea9c94f380",
+      "published_sha256": "ac4ce1b51f496037d0aa93ce351119472b9f575a94bffe4fe9a086adb4443098",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D5_RNA_ADT_K403_B256_seed1.json",
+      "source_label": "final_GiB/reproducibility/configs/D5_RNA_ADT_K403_B256_seed1.json",
+      "source_sha256": "12bbac8193ccc83919be9c6efac0830f6061ec9198ad803b272493f7da8a8257",
+      "published_sha256": "653a17dc1d95130da01387dddd57392576499efdbe8a2e8896403f1ab9dbaf35",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D5_RNA_ADT_K403_B256_seed2.json",
+      "source_label": "final_GiB/reproducibility/configs/D5_RNA_ADT_K403_B256_seed2.json",
+      "source_sha256": "e48c1eb61100bd5d2b03608ab212dc5e886fae645352392e8b8e865f72b61cb2",
+      "published_sha256": "55fca87ebfcc600e600e9626cb5eefb846fb5c6686f7683f4a189e8417aaac1b",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D5_RNA_ADT_K403_B256_seed3.json",
+      "source_label": "final_GiB/reproducibility/configs/D5_RNA_ADT_K403_B256_seed3.json",
+      "source_sha256": "7e2cbba96529e5a67a2aa6746351ff06e37984f6ca95c8af2d2d7212d311dabd",
+      "published_sha256": "d06688858290e4b99907c976ceed97bb6882d434b8dbc8eec45356209b9defad",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D5_RNA_ADT_K403_B512_seed1.json",
+      "source_label": "final_GiB/reproducibility/configs/D5_RNA_ADT_K403_B512_seed1.json",
+      "source_sha256": "f47704ab015f89f46e8393eb7af8f5c87dd7887e4f979fc0d5558a1626908b9f",
+      "published_sha256": "d90b8e1135e10bb6bdf18ff9ed06f1d616f68c9498be96bf059334b8490705f2",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D5_RNA_ADT_K403_B512_seed2.json",
+      "source_label": "final_GiB/reproducibility/configs/D5_RNA_ADT_K403_B512_seed2.json",
+      "source_sha256": "672f95dd6344beee207703aabe4b809792e413039e0ce22bd3a555266821e531",
+      "published_sha256": "221d4c366b697d54649fe5767d1cad563773fb6a1f021f6bf56f05397576db1b",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/D5_RNA_ADT_K403_B512_seed3.json",
+      "source_label": "final_GiB/reproducibility/configs/D5_RNA_ADT_K403_B512_seed3.json",
+      "source_sha256": "9efc4eb7a64bffe2125e3a42687f017bcc682f5555526c73de15db3c52f10a3e",
+      "published_sha256": "6f053aafdc4973abdedc4e5ea1fabbfed037b1e2eca38fa0372ec1c19d5925e5",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/GSE164378_RNA_ADT_K500_B512_seed1.json",
+      "source_label": "final_GiB/reproducibility/configs/GSE164378_RNA_ADT_K500_B512_seed1.json",
+      "source_sha256": "49aae40fbfdac225578a15f40a24a4b66c407ac4f9cd55bcc14dd6a18c5aed36",
+      "published_sha256": "53d4cefe91faffcbf78963927da084041998bf6fc3885cd64024ff6e362897f3",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/Ma_RNA_ATAC_K644_B512_seed1.json",
+      "source_label": "final_GiB/reproducibility/configs/Ma_RNA_ATAC_K644_B512_seed1.json",
+      "source_sha256": "c84f5041b5480a1ee4b51e5049da5d81fa22cb6b22562cc21fd33347c2ce8b8d",
+      "published_sha256": "27d503f6ad8979a4efdfe513dfb0096f5661d5d86a68e63f4ce0abdfebb85731",
+      "changes": [
+        "Replaced server username prefix with neutral path prefix; numerical settings unchanged."
+      ]
+    },
+    {
+      "file": "scalability/configs/training_sensitivity_queue.json",
+      "source_label": "final_GiB/reproducibility/configs/training_sensitivity_queue.json",
+      "source_sha256": "d6a7053a3d0943afcadc167b669c6ad5fdb681b4889d18f34110cd7671e71205",
+      "published_sha256": "d6a7053a3d0943afcadc167b669c6ad5fdb681b4889d18f34110cd7671e71205",
+      "changes": []
+    },
+    {
+      "file": "scalability/provenance/python_package_versions.json",
+      "source_label": "final_GiB/python_package_versions",
+      "source_sha256": "f686a85499901134686bbb04136e8e67cf3b25840232da9006a313c74271d7ad",
+      "published_sha256": "f686a85499901134686bbb04136e8e67cf3b25840232da9006a313c74271d7ad",
+      "changes": []
+    },
+    {
+      "file": "scalability/provenance/server_source_sha256.json",
+      "source_label": "final_GiB/server_source_sha256",
+      "source_sha256": "1bd1adf21943e3bf247c12ca1dc39672b99bd4169e50afed7f39f57917e0d0d3",
+      "published_sha256": "1bd1adf21943e3bf247c12ca1dc39672b99bd4169e50afed7f39f57917e0d0d3",
+      "changes": []
+    },
+    {
+      "file": "scalability/run_scalability.py",
+      "origin": "Generated release path/layout helper or documentation; no scientific experiment performed.",
+      "published_sha256": "1e43e50b3af9b806e48637ff37f532cdefc9e99c5ed6acd43f80ebc04a3b5e87",
+      "changes": [
+        "New release helper/documentation."
+      ]
+    },
+    {
+      "file": "scalability/scripts/Reproduce_All.sh",
+      "origin": "Generated release path/layout helper or documentation; no scientific experiment performed.",
+      "published_sha256": "899c41228654183616ebde1c65947a53234ccbf474dfbbeb1a3f3e8a910c46e9",
+      "changes": [
+        "New release helper/documentation."
+      ]
+    },
+    {
+      "file": "scalability/scripts/analysis_metrics.py",
+      "source_label": "final_GiB/reproducibility/scripts/analysis_metrics.py",
+      "source_sha256": "e527745450c6950ddd3ac1664a79b33aaccd71708ca103b850daf0c21c620a37",
+      "published_sha256": "e527745450c6950ddd3ac1664a79b33aaccd71708ca103b850daf0c21c620a37",
+      "changes": []
+    },
+    {
+      "file": "scalability/scripts/build_deliverables.py",
+      "source_label": "updated_20260915/reproducibility/scripts/build_deliverables.py",
+      "source_sha256": "a294d798a692fc0c77af6780a6370aa5bf0b734e39d37be456f1bb6de07c9d0d",
+      "published_sha256": "a294d798a692fc0c77af6780a6370aa5bf0b734e39d37be456f1bb6de07c9d0d",
+      "changes": [
+        "Restored the existing builder omitted from the final GiB bundle; no scientific fitting added."
+      ]
+    },
+    {
+      "file": "scalability/scripts/evaluate_training_batches.py",
+      "source_label": "final_GiB/reproducibility/scripts/evaluate_training_batches.py",
+      "source_sha256": "87023a5ee0cf5df905d7f30358f8824ceeddf3cd10da1a99dc95ff7e54797beb",
+      "published_sha256": "87023a5ee0cf5df905d7f30358f8824ceeddf3cd10da1a99dc95ff7e54797beb",
+      "changes": []
+    },
+    {
+      "file": "scalability/scripts/frozen_stability.py",
+      "source_label": "final_GiB/reproducibility/scripts/frozen_stability.py",
+      "source_sha256": "6e6120252bbc0a3a38f39356a9076a0c9378f250c97b9d566919f1301bd8e693",
+      "published_sha256": "6e6120252bbc0a3a38f39356a9076a0c9378f250c97b9d566919f1301bd8e693",
+      "changes": []
+    },
+    {
+      "file": "scalability/scripts/pipeline.py",
+      "source_label": "final_GiB/reproducibility/scripts/pipeline.py",
+      "source_sha256": "62bf220ed4a5d748d92336f94e88c9256b5070275f1be034253b2689ba802d63",
+      "published_sha256": "62bf220ed4a5d748d92336f94e88c9256b5070275f1be034253b2689ba802d63",
+      "changes": []
+    },
+    {
+      "file": "scalability/scripts/profile_runner.py",
+      "source_label": "final_GiB/reproducibility/scripts/profile_runner.py",
+      "source_sha256": "14eb221ae146802692df037db1c98bb5139e1650167238c53633773367806623",
+      "published_sha256": "14eb221ae146802692df037db1c98bb5139e1650167238c53633773367806623",
+      "changes": []
+    },
+    {
+      "file": "scalability/scripts/supervisor.py",
+      "source_label": "final_GiB/reproducibility/scripts/supervisor.py",
+      "source_sha256": "3be678db868f7ce92c525e082ec9f1d9f84d6efd1f421a6ce00c511eb4cb1058",
+      "published_sha256": "3be678db868f7ce92c525e082ec9f1d9f84d6efd1f421a6ce00c511eb4cb1058",
+      "changes": []
+    },
+    {
+      "file": "scalability/source_server/GARQ.py",
+      "source_label": "final_GiB/source_code/GARQ.py",
+      "source_sha256": "49c97de6440cd8ed76eca677a9225214752856461cc27930a0d0a465ae3179ab",
+      "published_sha256": "49c97de6440cd8ed76eca677a9225214752856461cc27930a0d0a465ae3179ab",
+      "changes": []
+    },
+    {
+      "file": "scalability/source_server/data_utils.py",
+      "source_label": "final_GiB/source_code/data_utils.py",
+      "source_sha256": "f86c775960003b070d5fcd71f789bdc7d53357bae16db21b1b54aedd5760e97a",
+      "published_sha256": "f86c775960003b070d5fcd71f789bdc7d53357bae16db21b1b54aedd5760e97a",
+      "changes": []
+    },
+    {
+      "file": "scalability/source_server/engine.py",
+      "source_label": "final_GiB/source_code/engine.py",
+      "source_sha256": "25a2ba5fda0c4ed06602d65ceef3a061f8bdf9c021740aa59fbde05198498765",
+      "published_sha256": "25a2ba5fda0c4ed06602d65ceef3a061f8bdf9c021740aa59fbde05198498765",
+      "changes": []
+    },
+    {
+      "file": "scalability/source_server/eval_utils.py",
+      "source_label": "final_GiB/source_code/eval_utils.py",
+      "source_sha256": "e38819dc53085912c128401c852e86382f2d52abf1cb0e028ff9a72c43bbf9d8",
+      "published_sha256": "e38819dc53085912c128401c852e86382f2d52abf1cb0e028ff9a72c43bbf9d8",
+      "changes": []
+    },
+    {
+      "file": "scalability/source_server/model.py",
+      "source_label": "final_GiB/source_code/model.py",
+      "source_sha256": "c629f59de63f4d6e3b3554a3a2b3c425b504ec4b92134167b60407b3dbbac1e8",
+      "published_sha256": "c629f59de63f4d6e3b3554a3a2b3c425b504ec4b92134167b60407b3dbbac1e8",
+      "changes": []
+    }
+  ],
+  "excluded": [
+    "raw data",
+    "clinical data",
+    "SupplementaryData1",
+    "checkpoints",
+    "H5AD/NPY/NPZ/RDS matrices",
+    "logs and hardware PID records",
+    "unknown source archives",
+    "document assembly outside the restored scalability builder",
+    "twelve-assay MOFA workflow as a substitute for D13-D16 integration"
+  ],
+  "verification": "Static Python compilation, JSON parsing, source hash/layout/private-path checks only. YAML syntax was not reparsed because the audit Python has no PyYAML; existing YAML was changed only by neutral path-prefix replacement. No scientific workflow executed. R/C++/shell sources were not compiled or executed."
+}
