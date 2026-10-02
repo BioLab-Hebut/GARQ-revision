@@ -1,0 +1,11 @@
+{
+  "code/final_server_validation.py": "246d5cf251396a390d4eccf4d1a8ba9a1addce8efb57c7c4b0de6deb59937408",
+  "code/evaluate_supplied_workflows.py": "892716fb1213e6a8168ceda23dd76537d05b954ca69ffe753e9a23670773ec6f",
+  "code/export_results.py": "f6c25e2824e77f2abad72be96713cbe8aeaee9219e3159b79915205e274f86f5",
+  "code/mofa_controls.py": "f406f6810403145dbe5f07808f11c1cacd829cdb8c465947dc077be9e2445104",
+  "code/run_bimodal_downstream.py": "5eafbdf805f236f4d27ed75b0ea4f1f655d8f5f025676d113bbc7bb021e253ae",
+  "code/prepare_all_arms.py": "63f5fa7381747f3f11912967465ffd44415b2581ab78b9c1fec19fb138448fb3",
+  "code/source/adt.ipynb": "599bbfd323bbfefd7113995424b489f165f41b18d98f167b01c30b520e8d5085",
+  "code/source/atac.ipynb": "b6daf5901453ebb13994ed5f48451799927f6a9dfcd02d329c6372116412cac2",
+  "code/source/compare.R": "a8110ffd98cb5172e07d534b8862512372bd8fa535a6ed30a72fd77bf84555b2"
+}

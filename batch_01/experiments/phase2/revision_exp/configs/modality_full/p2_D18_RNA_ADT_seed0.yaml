@@ -1,0 +1,33 @@
+config_id: P2_E7_D18_modality_RNA_ADT_seed0_K002
+task: legacy_garq
+implementation_tag: instrumented_legacy
+dataset: D18
+modality_combination: RNA+ADT
+data_files:
+  - /workspace/garq/data/RNA_ATAC_ADT/GSE158013/GSE158013_rna.h5ad
+  - /workspace/garq/data/RNA_ATAC_ADT/GSE158013/GSE158013_adt.h5ad
+data_types: [RNA, ADT]
+matrix_sources: [X, X]
+obs_name_canonicalization:
+  - null
+  - {pattern: '\.([0-9]+)$', replacement: '-\1'}
+label_key: celltype
+requested_K: 510
+epochs: 300
+batch_size: 256
+k_knn: 5
+seed: 0
+device: cuda
+deterministic: true
+anchors_init: Kmeans
+converge_threshold: 10
+min_available_ram_gb: 128
+min_free_gpu_gb: 12
+resource_poll_seconds: 0.1
+output_subdir: phase2/02_modality/full/D18/RNA_ADT/seed0
+result_root: revision_results
+anchor_dynamics:
+  trace: true
+  manual_reposition_enabled: true
+  reposition_interval: 1
+force: false

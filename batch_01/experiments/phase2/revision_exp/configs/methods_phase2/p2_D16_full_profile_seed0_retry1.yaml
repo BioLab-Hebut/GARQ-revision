@@ -1,0 +1,29 @@
+config_id: P2_E8_D16_full_GARQ_profile_seed0_K002_retry1
+task: legacy_garq
+implementation_tag: instrumented_legacy_large_K_initialization_compatibility
+dataset: D16
+data_files:
+  - /workspace/garq/data/RNA+ATAC/ma/Ma-2020-RNA.h5ad
+  - /workspace/garq/data/RNA+ATAC/ma/Ma-2020-ATAC.h5ad
+data_types: [RNA, ATAC]
+matrix_sources: [X, X]
+label_key: cell_type
+requested_K: 645
+epochs: 300
+batch_size: 256
+k_knn: 5
+seed: 0
+device: cuda
+deterministic: true
+anchors_init: Kmeans
+converge_threshold: 10
+min_available_ram_gb: 256
+min_free_gpu_gb: 12
+resource_poll_seconds: 0.1
+output_subdir: phase2/08_scalability/D16/GARQ/full_seed0_profile_K002_retry1
+result_root: revision_results
+anchor_dynamics:
+  trace: true
+  manual_reposition_enabled: true
+  reposition_interval: 1
+force: false
