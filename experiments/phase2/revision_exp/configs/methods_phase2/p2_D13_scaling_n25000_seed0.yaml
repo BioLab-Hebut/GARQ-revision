@@ -1,0 +1,30 @@
+config_id: P2_E8_D13_GARQ_scaling_n25000_seed0_K002
+task: legacy_garq
+implementation_tag: instrumented_legacy
+dataset: D13
+data_files:
+  - /workspace/garq/data/RNA+ADT/GSE164378/GSE164378_rna.h5ad
+  - /workspace/garq/data/RNA+ADT/GSE164378/GSE164378_adt.h5ad
+data_types: [RNA, ADT]
+matrix_sources: [X, X]
+label_key: celltype
+cell_limit: 25000
+requested_K: 500
+epochs: 300
+batch_size: 256
+k_knn: 5
+seed: 0
+device: cuda
+deterministic: true
+anchors_init: Kmeans
+converge_threshold: 10
+min_available_ram_gb: 256
+min_free_gpu_gb: 12
+resource_poll_seconds: 0.1
+output_subdir: phase2/08_scalability/D13/GARQ/n25000_seed0_K002
+result_root: revision_results
+anchor_dynamics:
+  trace: true
+  manual_reposition_enabled: true
+  reposition_interval: 1
+force: false
