@@ -1,0 +1,21 @@
+{
+  "epoch": 300,
+  "label_key": "celltype",
+  "gpu": 0,
+  "minimum_available_ram_gib": 100,
+  "minimum_free_gpu_mib": 16000,
+  "parameter_source": "Word dataset K, original code settings, prespecified batch sensitivity protocol",
+  "dataset": "D11_RNA_ATAC",
+  "K": 321,
+  "data_files": [
+    "/workspace/garq/data/RNA+ATAC/pbmc10k/pbmc10k_rna.h5ad",
+    "/workspace/garq/data/RNA+ATAC/pbmc10k/pbmc10k_atac.h5ad"
+  ],
+  "modalities": [
+    "RNA",
+    "ATAC"
+  ],
+  "batch_size": 512,
+  "seed": 3,
+  "run_id": "D11_RNA_ATAC_K321_B512_seed3"
+}
