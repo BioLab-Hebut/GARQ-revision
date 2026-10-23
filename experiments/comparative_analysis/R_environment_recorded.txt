@@ -1,0 +1,17 @@
+Recorded module_D_v4.R completed-run environment (not installed/tested anew):
+R 4.4.3; Ubuntu 20.04.6
+Seurat 5.3.0
+SeuratObject 5.1.0
+anndata (R) 0.8.0
+jsonlite 2.0.0
+Matrix 1.7-2
+slingshot 2.12.0
+TrajectoryUtils 1.12.0
+SingleCellExperiment 1.26.0
+princurve 2.1.6
+reticulate 1.42.0
+igraph 2.1.4
+splines: base R
+
+Python anndata is also needed by the selected RETICULATE_PYTHON environment.
+Source: completed v2 D/STATUS.json sessionInfo.

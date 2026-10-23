@@ -1,0 +1,14 @@
+# Direct Python dependencies; use the repository's recorded environment first.
+# This list is not a freshly executed or fully pinned environment lock.
+numpy
+pandas
+scipy
+scikit-learn
+h5py
+threadpoolctl
+anndata
+matplotlib
+torch
+einops
+faiss-cpu
+

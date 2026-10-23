@@ -1,0 +1,18 @@
+"""Input paths and recorded analysis settings."""
+CONFIG = {'D5': [403,
+        'D5403',
+        {'RNA': '${GARQ_INPUT_ROOT}/inputs/3377fe9f9a60_D8_rna.h5ad',
+         'ADT': '${GARQ_INPUT_ROOT}/inputs/4deb5a2b96ec_D8_adt.h5ad'}],
+ 'D11': [321,
+         'D11321',
+         {'RNA': '${GARQ_INPUT_ROOT}/inputs/519de1da8e3e_pbmc10k_rna.h5ad',
+          'ATAC': '${GARQ_INPUT_ROOT}/inputs/463ed4bb3662_pbmc10k_atac.h5ad'}],
+ 'kidney': [403,
+            'kidney403',
+            {'RNA': '${GARQ_INPUT_ROOT}/inputs/7d76c7f117e4_kidney_rna.h5ad',
+             'ATAC': '${GARQ_INPUT_ROOT}/inputs/165b2c0117d2_kidney_atac.h5ad'}],
+ 'GSE158013': [637,
+               'GSE158013637',
+               {'RNA': '${GARQ_INPUT_ROOT}/inputs/f03797ab3f9a_GSE158013_rna.h5ad',
+                'ATAC': '${GARQ_INPUT_ROOT}/inputs/3ab76af19afe_GSE158013_atac.h5ad',
+                'ADT': '${GARQ_INPUT_ROOT}/inputs/8ae3e40439ee_GSE158013_adt.h5ad'}]}
