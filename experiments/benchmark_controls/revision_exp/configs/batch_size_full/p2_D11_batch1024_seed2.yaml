@@ -1,0 +1,29 @@
+config_id: P2_E8_D11_GARQ_batch1024_seed2_K002
+task: legacy_garq
+implementation_tag: instrumented_legacy
+dataset: D11
+data_files:
+  - /workspace/garq/data/RNA+ATAC/pbmc10k/10x-Multiome-Pbmc10k-RNA.h5ad
+  - /workspace/garq/data/RNA+ATAC/pbmc10k/10x-Multiome-Pbmc10k-ATAC.h5ad
+data_types: [RNA, ATAC]
+matrix_sources: [X, X]
+label_key: cell_type
+requested_K: 193
+epochs: 300
+batch_size: 1024
+k_knn: 5
+seed: 2
+device: cuda
+deterministic: true
+anchors_init: Kmeans
+converge_threshold: 10
+min_available_ram_gb: 96
+min_free_gpu_gb: 12
+resource_poll_seconds: 0.1
+output_subdir: phase2/08_scalability/training_batch_size/D11/batch1024_seed2_K002
+result_root: revision_results
+anchor_dynamics:
+  trace: true
+  manual_reposition_enabled: true
+  reposition_interval: 1
+force: false

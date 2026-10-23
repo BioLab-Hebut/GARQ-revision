@@ -1,0 +1,33 @@
+config_id: P2_E8_D5_inference_stability_seed0_K002
+task: legacy_garq
+implementation_tag: instrumented_legacy
+dataset: D5
+data_files:
+  - /workspace/garq/data/RNA+ADT/D8/D8_rna.h5ad
+  - /workspace/garq/data/RNA+ADT/D8/D8_adt.h5ad
+data_types: [RNA, ADT]
+matrix_sources: [X, X]
+label_key: celltype
+requested_K: 242
+epochs: 300
+batch_size: 256
+k_knn: 5
+seed: 0
+device: cuda
+deterministic: true
+anchors_init: Kmeans
+converge_threshold: 10
+min_available_ram_gb: 96
+min_free_gpu_gb: 12
+resource_poll_seconds: 0.1
+output_subdir: phase2/08_scalability/inference_stability/D5/seed0_K002
+result_root: revision_results
+inference_stability:
+  batch_sizes: [256, 512, 1024, 2048, 4096]
+  order_seeds: [-1, 1701, 1702, 1703, 1704, 1705, 1706, 1707, 1708, 1709, 1710]
+  num_workers: 0
+anchor_dynamics:
+  trace: true
+  manual_reposition_enabled: true
+  reposition_interval: 1
+force: false
