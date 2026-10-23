@@ -1,0 +1,23 @@
+{
+  "epoch": 300,
+  "batch_size": 512,
+  "seed": 1,
+  "label_key": "celltype",
+  "gpu": 0,
+  "minimum_available_ram_gib": 230,
+  "minimum_free_gpu_mib": 16000,
+  "parameter_source": "User confirmed existing result K and GARQ20260905 defaults; Word specifies MetqQ2 and run_trimodel.sh",
+  "run_id": "Ma_RNA_ATAC_K644_B512_seed1",
+  "dataset": "Ma_GSE140203",
+  "user_dataset_id": "D13",
+  "paper_table1_dataset_id": "D16",
+  "data_files": [
+    "/workspace/garq/data/RNA+ATAC/ma/ma_rna.h5ad",
+    "/workspace/garq/data/RNA+ATAC/ma/ma_atac.h5ad"
+  ],
+  "modalities": [
+    "RNA",
+    "ATAC"
+  ],
+  "K": 644
+}
